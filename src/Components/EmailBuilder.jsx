@@ -226,9 +226,9 @@ const EmailBuilder = () => {
         </div>
 
         <div className="d-flex justify-content-end mt-4">
-          <button className="btn btn-primary me-2" onClick={handleSaveConfig}>
+          {/* <button className="btn btn-primary me-2" onClick={handleSaveConfig}>
             Save Configuration
-          </button>
+          </button> */}
 
           <button
             className="btn btn-info"
