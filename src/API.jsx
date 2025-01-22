@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseAPI = "http://localhost:5000/api";
+const baseAPI = "https://email-builder-back-end-5ilx.onrender.com/api";
 
 export const getEmailLayout = async () => {
   const response = await axios.get(`${baseAPI}/newtemplates/getEmailLayout`, {
