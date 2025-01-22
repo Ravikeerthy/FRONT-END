@@ -29,7 +29,11 @@ export const uploadImage = async (formdata) => {
 export const uploadEmailConfig = async (config) => {
   const response = await axios.post(
     `${baseAPI}/newtemplates/uploadEmailConfig`,
-    config
+    config, {
+      headers: {
+        "Content-Type": "application/json",
+      },
+    }
   );
   return response.data;
 };
